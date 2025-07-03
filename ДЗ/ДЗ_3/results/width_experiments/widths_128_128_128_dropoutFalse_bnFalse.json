@@ -1,0 +1,43 @@
+{
+    "experiment_info": {
+        "depth": null,
+        "widths": [
+            128,
+            128,
+            128
+        ],
+        "hidden_size": 128,
+        "use_dropout": false,
+        "use_batchnorm": false,
+        "epochs": 3,
+        "learning_rate": 0.001,
+        "batch_size": 64,
+        "device": "cpu"
+    },
+    "metrics": {
+        "train_accuracy_per_epoch": [
+            0.9203333333333333,
+            0.9663333333333334,
+            0.9759
+        ],
+        "test_accuracy_per_epoch": [
+            0.9594,
+            0.9658,
+            0.9738
+        ],
+        "train_loss_per_epoch": [
+            0.26455180943190953,
+            0.10916310832150646,
+            0.07805865669006438
+        ],
+        "test_loss_per_epoch": [
+            0.1352790179996081,
+            0.10017065562965544,
+            0.08382642850580857
+        ],
+        "final_train_accuracy": 0.9759,
+        "final_test_accuracy": 0.9738,
+        "training_time_sec": 49.899179458618164,
+        "num_parameters": 134794
+    }
+}
